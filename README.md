@@ -126,7 +126,7 @@ Random Forest Accuracy: 0.9914
 
 * BMECapSA algorithm adapted from related IDS research
 * NSL-KDD and ToN-IoT datasets are publicly available for academic use
-  The theoretical support from 《Anomaly-based-intrusion-detection-system-in-the-Interne_2023_Journal-of-Para》 
+* The theoretical support from 《Anomaly-based-intrusion-detection-system-in-the-Interne_2023_Journal-of-Para》 
 ---
 
 ## 📁 Dataset Notes
