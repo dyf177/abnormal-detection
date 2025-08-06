@@ -46,8 +46,8 @@ pip install -r requirements.txt
 
 ### 2. Prepare dataset
 
-* Download and place NSL-KDD: `data/nsl_kdd.csv`
-* Combine ToN-IoT `.csv` files into `data/ton_iot_all.csv`
+* `data/nsl_kdd.csv`
+* `data/ton_iot_all.csv`
 
 ### 3. Run pipeline
 
@@ -109,7 +109,7 @@ Random Forest Accuracy: 0.9914
 
 * To **limit feature subset size**, modify `min_features` and `max_features` in `bme_capsa.py`
 * To **remove label-leaking fields**, add column names like `type`, `date`, `time` to drop list in `preprocess_data.py`
-* To **visualize confusion matrix**, use matplotlib + seaborn in `utils/metrics.py`
+* To **visualize confusion matrix**, use matplotlib + seaborn in `utils/train_rf.py`
 
 ---
 
@@ -126,7 +126,7 @@ Random Forest Accuracy: 0.9914
 
 * BMECapSA algorithm adapted from related IDS research
 * NSL-KDD and ToN-IoT datasets are publicly available for academic use
-
+  The theoretical support from 《Anomaly-based-intrusion-detection-system-in-the-Interne_2023_Journal-of-Para》 
 ---
 
 ## 📁 Dataset Notes
@@ -140,5 +140,5 @@ Random Forest Accuracy: 0.9914
 
 ## 📢 Feedback
 
-Issues and improvements welcome. Open a PR or reach out via GitHub Issues.
+Issues and improvements welcome. Reach out via GitHub Issues.
 
